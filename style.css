@@ -1,7 +1,117 @@
+header{
+    background-image: url("assets/fondo2.jpg");
+    height:550px;
+    position: relative;
+}
+
+
 .container{
     max-width: 1100px;
 }
 
-header{
-    background-image: url("assets/fondo.jpg");
+.title-color{
+    color:rgb(0, 96, 96)
+}
+
+.title{
+    color:white;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.btn {
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.logo{
+    width: 120px;
+}
+
+#row-cursos{
+    background-color: darkslateblue;
+}
+
+#row-cursos img{
+    border-radius: 50%;
+}
+
+.row{
+    margin:0
+}
+
+#row-nosotros{
+    background-image: url('assets/fondo2.jpg');
+    background-position: top right;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-servicios{
+    background-image: url('assets/fondo2.jpg');
+    background-position: top right;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-frase{
+    background-image: url('assets/fondo.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 400px !important;
+    padding-bottom: 400px !important;
+}
+
+#row-contacto{
+    background-image: url('assets/fondo2.jpg');
+    background-position: bottom center;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+#row-nosotros img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#row-servicios img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+#row-nosotros p{
+    font-size: 14px;
+}
+
+#row-servicios p{
+    font-size: 14px;
+}
+
+#row-datos{
+    background-color: darkslateblue;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #23C7E6;
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
 }

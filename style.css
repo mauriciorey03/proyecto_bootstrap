@@ -31,6 +31,18 @@ header{
     padding-right: 20px;
 }
 
+.btn-conta {
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.459);
+}
 
 .logo{
     width: 120px;
@@ -38,6 +50,17 @@ header{
 
 #row-cursos{
     background-color: darkslateblue;
+}
+
+#row-conta{
+    background-color: darkslateblue;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-galeria{
+    background-color: darkslateblue;
+
 }
 
 #row-cursos img{
@@ -49,6 +72,13 @@ header{
 }
 
 #row-nosotros{
+    background-image: url('assets/fondo2.jpg');
+    background-position: top right;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.row-ubicacion{
     background-image: url('assets/fondo2.jpg');
     background-position: top right;
     padding-top: 100px !important;
@@ -87,6 +117,12 @@ header{
     width: 300px;
 }
 
+.row-ubicacion img{
+    border-radius: 10%;
+    width: 400px;
+    margin-top: 20%;
+}
+
 #row-nosotros p{
     font-size: 14px;
 }
@@ -119,6 +155,18 @@ footer a{
 
 footer{
     background-color: rgb(34, 34, 34);
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: rgb(34, 34, 34);
+        border-bottom-left-radius: 10px;
+        padding-left: 20px;
+    }
+}
+
+nav{
+    z-index: 100;
 }

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi proyecto</title>
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-white">
+            <div class="container">
+                <img class="logo" src="assets/bird.png" alt="bird">
+                <button class="navbar-toggler bg-white" data-bs-target="#miLista" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="miLista">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="index.html">Principal</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="index.html#row-cursos">Cursos</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="index.html#row-nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="index.html#row-servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="/profesores.html">Profesores</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="/contact.html">Contacto</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white fw-bold" href="/gallery.html">Galeria</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="title font-weigh-bold">
+                FORMULARIO DE CONTACTO <br>
+                <a href="#row-contacto"> <button class="btn mt-3"> Registrate ahora</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="row" id="row-conta">
+            <div class="container text-center">
+                <div class="col-md-6 mx-auto">
+                    <h1 class="text-white fw-bold">Contacto</h1>
+                    <h5 class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo non magni enim vel quis maiores inventore, voluptatem, dicta natus distinctio explicabo quo, odio illum. Recusandae nisi illum quos labore dolorum!</h5 class="mt-4">
+                        <form action="get">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" >
+                                <label for="floatingInputDisabled">Correo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" ></textarea>
+                                <label for="floatingTextareaDisabled">Solititud de información</label>
+                            </div>
+
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" >
+                                <option selected>Nivel de origami</option>
+                                <option value="1">Básico</option>
+                                <option value="2">Medio</option>
+                                <option value="3">Avanzado</option>
+                                </select>
+                                <label for="floatingSelectDisabled">Conocimiento</label>
+                                
+                            </div>
+
+                            
+                            <br>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+
+                        </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 text-center" id="row-conta">
+            <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Mes de clase</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$66.000<small class="text-body-secondary fw-light">/mes</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>Materiales incluidos</li>
+                    <li>Libro nivel guía</li>
+                    <li>Clases presenciales</li>
+                    <li>Acompañamiento</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Solicitar</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Semestral</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$300.000<small class="text-body-secondary fw-light">/ 6-mes</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>Bloc de colores</li>
+                    <li>Convenio multisede</li>
+                    <li>Refrigerio</li>
+                    <li>Libro de los 6 niveles</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Solicitar</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Plus anual</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$600.000<small class="text-body-secondary fw-light">/año</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>Todos los anteriores</li>
+                    <li>Acceso a material grabado</li>
+                    <li>Alimentación</li>
+                    <li>Material ilimitado</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Solicitar</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+    </main>
+
+    <footer>
+        <div class="row text-white">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-md-4 px-5 text-center">
+                        <h3>Nosotros</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum odit officiis animi culpa, maiores provident. Iure itaque architecto unde minus expedita cumque inventore, veritatis sequi! Aperiam ullam aliquid aut!</p>
+                    </div>
+                    <div class="col-md-4 px-5 text-center">
+                        <h3>Créditos</h3>
+                        <p>Sitio Web creado por <br> <a href="https://github.com/mauriciorey03" target="_blank">🚀Mauricio🦕🦖☄️</a></p>
+                    </div>
+                    <div class="col-md-4 px-5 text-center">
+                        <h3>Contáctanos</h3>
+                        <div class="row">
+                            <i class="bi bi-telephone-fill px-2"> (607) 6 11 22 33</i>
+                            <br>
+                            <i class="bi bi-envelope-fill px-2"> correo@origami.com</i>
+                            <br>
+                            <i class="bi bi-house-fill px-2"> P. Sherman Calle Wallaby #4-2, Estoraques </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- JS y Dependencia -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

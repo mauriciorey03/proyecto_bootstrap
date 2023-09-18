@@ -1,5 +1,5 @@
 header{
-    background-image: url("./assets/fondo2.jpg");
+    background-image: url("assets/fondo2.jpg");
     height:550px;
     position: relative;
 }
@@ -72,28 +72,28 @@ header{
 }
 
 #row-nosotros{
-    background-image: url('./assets/fondo2.jpg');
+    background-image: url('assets/fondo2.jpg');
     background-position: top right;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
 .row-ubicacion{
-    background-image: url('./assets/fondo2.jpg');
+    background-image: url('assets/fondo2.jpg');
     background-position: top right;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
 #row-servicios{
-    background-image: url('./assets/fondo2.jpg');
+    background-image: url('assets/fondo2.jpg');
     background-position: top right;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
 
 #row-frase{
-    background-image: url('./assets/fondo.png');
+    background-image: url('assets/fondo.png');
     background-size: cover;
     background-position: center;
     padding-top: 400px !important;
@@ -101,7 +101,7 @@ header{
 }
 
 #row-contacto{
-    background-image: url('./assets/fondo2.jpg');
+    background-image: url('assets/fondo2.jpg');
     background-position: bottom center;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
